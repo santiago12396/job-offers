@@ -38,8 +38,8 @@
 
 body {
     font-family: 'Inter', system-ui, sans-serif;
-    color: var(--color-text-primary);
     background-color: var(--color-bg-page);
+    color: var(--color-text-primary);
     line-height: 1.5;
 }
 
@@ -72,4 +72,101 @@ p {
 h1 {
     font-size: 1.5rem;
 }
+
+ul {
+    list-style: none;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+    font-weight: 600;
+
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-primary-hover);
+    }
+}
+
+
+input {
+    outline: none;
+    padding: 0.75rem 1rem;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+.container {
+    width: min(90%, 75rem);
+    margin-inline: auto;
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.125rem .5rem;
+    background-color: var(--color-bg-surface);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Heroe */
+.hero {
+    background-image: url(./assets/images/background.webp);
+    height: 31.25rem;
+}
+.hero-content {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .75rem;
+}
+.hero-title {
+    font-size: 4rem;
+}
+.search-field {
+    display: flex;
+    background: var(--color-bg-input);
+    border-radius: var(--radius-sm);
+    align-items: center;
+    padding-left: 1rem;
+    gap: .75rem;
+    overflow: hidden;
+
+    .search-input {
+        border: none;
+        padding-inline: 0;
+        flex: 1;
+    }
+
+    .search-button {
+        border-radius: 0;
+        padding-inline: 2rem;
+    }
+}
+
 

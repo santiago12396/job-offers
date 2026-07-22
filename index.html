@@ -8,9 +8,14 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="logo-wrap">
-
-        </div>
+        <a class="logo">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            DevJobs
+        </a>
 
         <nav class="main-nav">
             <ul class="nav-list">
@@ -31,18 +36,22 @@
 
         <div class="header-actions">
             <button class="post-button">Publicar un empleo</button>
-            <button class="logi-button">Iniciar sesión</button>
+            <button class="login-button">Iniciar sesión</button>
         </div>
 
     </header>
 
     <main class="hero">
-        <div class="hero-content">
+        <div class="hero-content container">
             <h1 class="hero-title">Encuentra el trabajo de tus sueños</h1>
             <p class="hero-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias ipsum, dignissimos, est cupiditate facere optio earum illo asperiores illum sint quam, rem a impedit sapiente fuga exercitationem incidunt repudiandae?</p>
             <form action="" class="job-search">
                 <div class="search-field">
-                    <input type="text" class="search-input" placeholder="Buscar empleos por titulo, habilidad o empresa">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" >
+                        <path d="M18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8c1.85 0 3.54-.63 4.9-1.69l5.1 5.1L21.41 20l-5.1-5.1A8 8 0 0 0 18 10M4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6"></path>
+                    </svg>
+                    <input type="text" class="search-input" name="search-input" placeholder="Buscar empleos por titulo, habilidad o empresa">
                     <button class="search-button">Buscar</button>
                 </div>
             </form>
