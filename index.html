@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,8 +35,8 @@
         </nav>
 
         <div class="header-actions">
-            <button class="post-button">Publicar un empleo</button>
-            <button class="login-button">Iniciar sesión</button>
+            <button class="button button-secondary">Publicar un empleo</button>
+            <button class="button button-primary">Iniciar sesión</button>
         </div>
 
     </header>
@@ -46,17 +46,62 @@
             <h1 class="hero-title">Encuentra el trabajo de tus sueños</h1>
             <p class="hero-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias ipsum, dignissimos, est cupiditate facere optio earum illo asperiores illum sint quam, rem a impedit sapiente fuga exercitationem incidunt repudiandae?</p>
             <form action="" class="job-search">
-                <div class="search-field">
-                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                <div class="search-field content-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
                         fill="currentColor" viewBox="0 0 24 24" >
                         <path d="M18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8c1.85 0 3.54-.63 4.9-1.69l5.1 5.1L21.41 20l-5.1-5.1A8 8 0 0 0 18 10M4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6"></path>
                     </svg>
                     <input type="text" class="search-input" name="search-input" placeholder="Buscar empleos por titulo, habilidad o empresa">
-                    <button class="search-button">Buscar</button>
+                    <button class="button button-primary search-button">Buscar</button>
                 </div>
             </form>
         </div>
     </main>
+
+    <section class="about">
+        <div class="about-container container">
+            <header class="about-header content-container">
+                <h2 class="about-title">¿Por qué DevJobs?</h2>
+                <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum dolorem delectus eaque assumenda porro molestias fuga quas, beatae, autem provident deleniti.</p>
+            </header>
+            <div class="about-cards">
+                <article class="about-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" class="about-card-icon">
+                        <path d="M20 6h-3V4c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2M9 4h6v2H9zM8 8h12v3.07l-.83.39a16.78 16.78 0 0 1-14.34 0L4 11.07V8zM4 20v-6.72c2.54 1.19 5.27 1.79 8 1.79s5.46-.6 8-1.79V20z"></path>
+                    </svg>
+    
+                    <h3 class="about-card-title">Fast Hiring</h3>
+        
+                    <p class="about-card-description">Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="about-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" class="about-card-icon">
+                        <path d="M10 13H8c-2.76 0-5 2.24-5 5v1c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-1c0-2.76-2.24-5-5-5m-5 5c0-1.65 1.35-3 3-3h2c1.65 0 3 1.35 3 3zm7.73-11.49c-.08-.22-.19-.42-.3-.62v-.01c-.69-1.14-1.93-1.89-3.42-1.89-2.28 0-4 1.72-4 4s1.72 4 4 4c1.49 0 2.73-.74 3.42-1.89v-.01c.12-.2.22-.4.3-.62.02-.06.03-.12.05-.18.06-.17.11-.34.15-.52.05-.25.07-.51.07-.78s-.03-.53-.07-.78c-.03-.18-.09-.35-.15-.52-.02-.06-.03-.12-.05-.18M9 10c-1.18 0-2-.82-2-2s.82-2 2-2 2 .82 2 2-.82 2-2 2m6 0q-.165 0-.33-.03c-.22.66-.56 1.27-.98 1.81.41.13.84.22 1.31.22 2.28 0 4-1.72 4-4s-1.72-4-4-4c-.47 0-.9.09-1.31.22.43.53.76 1.14.98 1.81.11-.01.21-.03.33-.03 1.18 0 2 .82 2 2s-.82 2-2 2m1 3h-1.11c.6.58 1.08 1.27 1.44 2.03C17.83 15.2 19 16.46 19 18h-2v1c0 .35-.07.69-.18 1H20c.55 0 1-.45 1-1v-1c0-2.76-2.24-5-5-5"></path>
+                    </svg>
+    
+                    <h3 class="about-card-title">Fast Hiring</h3>
+        
+                    <p class="about-card-description">Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="about-card">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" class="about-card-icon">
+                        <path d="M20 6h-4V4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v17c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V8c0-1.1-.9-2-2-2m0 14H4V4h10v3c0 .55.45 1 1 1h5z"></path><path d="M10 6h2v2h-2zM6 6h2v2H6zm0 4h2v2H6zm4 0h2v2h-2zm6 0h2v2h-2zm-6 4h2v2h-2zm-4 0h2v2H6zm10 0h2v2h-2z"></path>
+                    </svg>
+    
+                    <h3 class="about-card-title">Fast Hiring</h3>
+        
+                    <p class="about-card-description">Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <small class="footer-text">&copy; 2026 DevJobs. Todos los derechos reservados.</small>
+    </footer>
 
 </body>
 </html>
