@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Jobs</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" /> 
 </head>
 <body>
     <header class="main-header">
@@ -39,7 +39,27 @@
             <button class="button button-primary">Iniciar sesión</button>
         </div>
 
+        <button class="nav-toggle" popovertarget="mobile-nav" aria-label="Abrir menú">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                fill="currentColor" viewBox="0 0 24 24" >
+                <path d="M3 5h18v2H3zm0 6h18v2H3zm0 6h18v2H3z"></path>
+            </svg>
+        </button>
+
     </header>
+
+    <div id="mobile-nav" popover class="mobile-nav">
+        <ul class="nav-list nav-list-mobile">
+            <li class="nav-item"><a href="" class="nav-link">Buscar</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Empleos</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Empresas</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Salarios</a></li>
+        </ul>
+        <div class="header-actions header-actions-mobile">
+            <button class="button button-secondary">Publicar un empleo</button>
+            <button class="button button-primary">Iniciar sesión</button>
+        </div>
+    </div>
 
     <main class="hero">
         <div class="hero-content container">
